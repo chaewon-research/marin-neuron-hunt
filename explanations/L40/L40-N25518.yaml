@@ -1,0 +1,44 @@
+neuron: L40-N25518
+data: pilot/fineweb-10m-sparse
+label: "Digit-bearing tokens (+), mixed lexical contexts (-)"
+positive:
+  status: explained
+  confidence: weak
+  cue_type: numeric-id
+  explanation: >-
+    Digit-bearing token pieces are more frequent among retained positive firings
+    (7,292/30,829, 23.65%) than among retained negative firings (4,807/29,189,
+    16.47%). They account for 41.40% of the strongest 5% of retained positive
+    firings, including temperatures, percentages and quantities. Positive
+    activations also occur on many ordinary words, so numeric-token selectivity
+    has not been established.
+  fires_on: >-
+    Observed on numeric pieces such as "86" and "87" in temperatures, "50"
+    in a calorie count, "100" in percentages, and "26" in a discount.
+  not_on: >-
+    No non-firing contexts established; retained sparse firings cannot show
+    that the neuron stays inactive on matched nonnumeric tokens.
+  evidence: [6127296, 6035728, 6127257, 1275419, 3544613, 3918744, 2465515, 7033165]
+  verification: untested
+negative:
+  status: unclear
+  cue_type: mixed
+  explanation: >-
+    The token piece "questions" occurs in 270 of 29,189 retained negative
+    firings, versus 5 of 30,829 positive firings. The strongest negative
+    examples also include words such as "envy", "enquiries" and "satisfied";
+    the broader negative-side sample is heterogeneous. A shared functional
+    cue has not been identified.
+  fires_on: >-
+    Observed on "questions" in several contexts, and on other words
+    including "envy", "enquiries", and "satisfied".
+  not_on: "Not established from the retained sparse firings."
+  evidence: [8548545, 9343174, 3200164, 9062103, 3124872, 1025920, 4641807]
+  verification: untested
+relation: unrelated
+relation_note: >-
+  The retained positive firings show an association with digit-bearing pieces;
+  the negative side lacks a coherent shared cue, so no common function is established.
+by:
+  - github: chaewon-research
+    method: human
