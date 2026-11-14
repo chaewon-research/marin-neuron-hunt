@@ -42,6 +42,3 @@ relation_note: >-
 by:
   - github: chaewon-research
     method: human
-  - github: chaewon-research
-    method: agent
-    model: ChatGPT
