@@ -1,0 +1,47 @@
+type: contrast
+neuron: L40-N25518
+side: +
+pairs:
+- high: The station's temperature was [[86]] in the weather log.
+  low: The station's identifier was [[86]] in the weather log.
+- high: At noon, the weather sensor listed its temperature as [[87]] in the report.
+  low: At noon, the weather sensor listed its identifier as [[87]] in the report.
+- high: The meal's energy was [[50]] in the nutrition database.
+  low: The meal's code was [[50]] in the nutrition database.
+- high: The cheese's protein was [[30]] in the nutrition record.
+  low: The cheese's code was [[30]] in the nutrition record.
+- high: The exam's score was [[100]] in the school database.
+  low: The exam's version was [[100]] in the school database.
+- high: The class's average was [[80]] in the grade report.
+  low: The class's code was [[80]] in the grade report.
+- high: At dawn, the sensor's temperature was [[44]] in the bulletin.
+  low: At dawn, the sensor's identifier was [[44]] in the bulletin.
+- high: The promotion's discount was [[26]] in the store spreadsheet.
+  low: The promotion's code was [[26]] in the store spreadsheet.
+- high: The patient's pulse was [[90]] in the medical chart.
+  low: The patient's identifier was [[90]] in the medical chart.
+- high: The specimen's mass was [[10]] in the lab notebook.
+  low: The specimen's identifier was [[10]] in the lab notebook.
+- high: In the sales log, the product's price was [[86]] on Friday.
+  low: In the sales log, the product's code was [[86]] on Friday.
+- high: The lab log recorded the chamber's humidity as [[87]] during testing.
+  low: The lab log recorded the chamber's identifier as [[87]] during testing.
+- high: The runner's time was [[50]] in the race log.
+  low: The runner's bib was [[50]] in the race log.
+- high: The tank's pressure was [[30]] in the inspection report.
+  low: The tank's identifier was [[30]] in the inspection report.
+- high: The vessel's capacity was [[100]] in the port records.
+  low: The vessel's registration was [[100]] in the port records.
+- high: On the manifest, the shipment's count was [[80]] before departure.
+  low: On the manifest, the shipment's code was [[80]] before departure.
+- high: The road's speed was [[44]] in the transport database.
+  low: The road's route was [[44]] in the transport database.
+- high: The course's enrollment was [[26]] in the university register.
+  low: The course's number was [[26]] in the university register.
+- high: The survey's count was [[90]] in the study notes.
+  low: The survey's code was [[90]] in the study notes.
+- high: The employee's balance was [[10]] in the payroll report.
+  low: The employee's code was [[10]] in the payroll report.
+by:
+  github: chaewon-research
+  method: human
